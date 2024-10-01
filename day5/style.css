@@ -1,0 +1,25 @@
+/* .div1{
+    padding: 100px;
+    background-color: red;
+    background-image: url('https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.p1{
+   
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 32px;
+} */
+
+.container{
+    font-size: 30px;
+    text-align: center;
+}
+.first{
+    font-size: 3em;
+}

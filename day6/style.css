@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+
+
+    position: sticky;
+    top: 0px;
+ 
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.btn{
+    padding: 30px 70px;
+    background-color: purple;
+    font-size: 40px;
+    color: white;
+    border-radius: 40px;
+}
+
+.title{
+    position: relative;
+    top: 0px;
+}
+
+.parent{
+    position: relative;
+    width: 500px;
+    height: 500px; 
+    background-color: brown;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 1k0px;
+}
+/* hover effect on .btn class */
+.btn:hover{
+    background-color: red;
+    transition: 20ms;
+}
+
+.btn:active{
+    background-color: rgb(12, 234, 93);
+}
+
+
+@media only  screen and (max-width: 768px) {
+    .container{
+        background-color: blue;
+        font-size: 20px;
+    }
+}
+.aboutMe{
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

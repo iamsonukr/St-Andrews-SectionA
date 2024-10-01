@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    border-bottom:5px solid black;
+    height: 80px;
+    align-items: center;
+}
+
+.navbar-items{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-item{
+    list-style-type: none;
+}
