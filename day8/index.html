@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="time">0</h1>
+    <h1 id="name">John Cena</h1>
+    <!-- Javascript starts here -->
+    <script>
+        // this is name change function
+        const changename = () => {
+            document.getElementById('name').innerHTML = "Vishal Saini"
+        }
+        // this is setInterval 
+        setInterval(()=>{
+            changename();
+        },5000)
+
+        // Timing Function Starts Here
+        let sec=0
+        const changeTime=()=>{
+            sec=sec+1;
+            document.getElementById('time').innerHTML=sec
+        }
+
+        setInterval(()=>{
+            changeTime(); 
+        },1000)
+    </script>
+</body>
+
+</html>
