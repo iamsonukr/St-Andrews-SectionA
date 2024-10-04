@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Everyone</h1>
+
+    <!-- JS Starts Here -->
+    <script>
+
+        // Creating an array of students
+        const students=['Raj','Mahesh','Rohit','Mayank']
+
+        // map
+        // students.map((item)=>{
+        //     console.log(item)
+        // })
+
+        // push
+        // students.push("Vishal")
+        // console.log(students)
+        
+        // pop
+        // students.pop()
+        // console.log(students)
+
+        console.log(students)
+
+
+        // SPLICE 
+        // array.splice(start,deleteCount,item1,item2,item3)
+        setTimeout(()=>{
+            students.splice(1,2,"Alice","Bob")
+            console.log(students)
+        },3000)
+
+        // Try Catch
+        const letsTry=()=>{
+            try {
+                
+            } catch (error) {
+                console.log(error)
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>
